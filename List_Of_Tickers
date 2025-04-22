@@ -1,0 +1,25 @@
+'''
+List of tickers (delete the assets your new mutual portfolio has removed, and add in the new ones you want to reinvest that money in).
+This is currently the old portfolio, but it’s made so that you can easily copy and paste into the Value at Risk code. 
+'''
+
+tickers = ['AAPL', 'MSFT', 'AMZN', 'GOOGL', 'NVDA',
+          'TSLA', 'WMT', 'META', 'UNH', 'JNJ',
+           'JPM', 'V', 'PG', 'XOM', 'LLY',
+          'AVGO', 'MA', 'PEP', 'DIS', 'KO',
+          'COST', 'HD', 'CSCO', 'PFE', 'BA',
+          'AMD', 'PANW', 'SHOP', 'ZM', 'CAR',
+          'ROKU', 'DKNG', 'DOCU', 'ALB', 'MDB',
+          'ETSY', 'U', 'NET', 'SNOW', 'PLUG',
+          'BABA', 'TCEHY', 'BIDU', '005930.KQ', 'TSM',
+          'INFY', 'RELIANCE.NS', 'MELI', 'PBR', 'VALE',
+          'NPSNY', '2222.SR', 'SIEGY', 'SAP', 'ASML',
+          'NSRGY', 'UL', 'TM', '8058.T', 'SONY',
+          'EMB', 'VWOB', 'EBND', 'LEMB', 'PCY',
+          'IDR', 'CL', 'PH', 'INR', 'TR',
+          'VCIT', 'SPAB', 'SCHZ', 'CRED', 'VCLT',
+          'BND', 'IGLB', 'LQD', 'IGF', 'BNDX',
+          '^IRX', '^FVX', '^TNX', 'SPYB', '^TYX',
+          'IEF', 'TLH', 'FLOT', 'FNMA', 'TLT',
+          'GLD', 'SLV', 'DBC', 'USO', 'MOO',
+          'UNG', 'COPX', 'WEAT', 'PALL', 'IAU']
