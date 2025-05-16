@@ -64,7 +64,7 @@ portfolio_returns = returns @ weights
 
 # Define Stress Test Scenarios
 stress_tests = {
-   "Market Crash": {"stocks": -0.30, "bonds": -0.10, "commodities": 0},
+   "Market Crash": {"stocks": -0.25, "bonds": -0.10, "commodities": 0},
    "Interest Rate Spike": {"stocks": -0.05, "bonds": -0.05, "commodities": 0},
    "Recession Scenario": {"stocks": -0.10, "bonds": -0.05, "commodities": 0.05},
    "Inflation Shock": {"stocks": -0.08, "bonds": -0.06, "commodities": 0.10}  # Assume commodities gain
