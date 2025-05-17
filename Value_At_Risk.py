@@ -5,6 +5,22 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 from scipy.stats import norm
 
+# Define weights as a dictionary
+weights_dict = {'AAPL': 0.01, 'TSLA': 0.99}
+
+
+# Create the list of tickers from the dictionary keys (ensures correct order)
+tickers = list(weights_dict.keys())
+
+
+# Convert weights to a NumPy array in the same order as tickers
+weights = np.array([weights_dict[ticker] for ticker in tickers])
+
+
+# Check that weights sum to 1
+if not np.isclose(np.sum(weights), 1.0):
+   raise ValueError("Weights must sum to 1.")
+
 
 # Set time from a certain number of years to take data from #
 
